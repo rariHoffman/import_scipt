@@ -11,7 +11,7 @@ def download_file(url, dest)
   end
 end
 
-uri = URI('https://rhymes.ingedata.net/office/1/cdn/36341a46-a6bc-44ec-89ed-d561945ffbf8?mindate=201-01-01&maxdate=2018-01-31&page=1)
+uri = URI('https://rhymes.ingedata.net/office/1/cdn/36341a46-a6bc-44ec-89ed-d561945ffbf8?mindate=2018-01-01&maxdate=2018-01-31&page=1)
 
 http = Net::HTTP.new(uri.host, uri.port)
 http.use_ssl = true
